@@ -14,6 +14,127 @@
             <column column="students.ethnicity">race</column>
             <column column="students.fedethnicity">federal_ethnicity_indicator</column>
             <column column="EmailAddress.emailaddress">emailaddress</column>
+            <column column="students.City">City</column>
+			<column column="students.DistrictOfResidence">DistrictOfResidence</column>
+			<column column="students.EntryCode">EntryCode</column>
+			<column column="students.EntryDate">EntryDate</column>
+			<column column="students.ExitCode">ExitCode</column>
+			<column column="students.ExitComment">ExitComment</column>
+			<column column="students.ExitDate">ExitDate</column>
+			<column column="students.Grade_Level">Grade_Level</column>
+			<column column="students.Home_Phone">Home_Phone</column>
+			<column column="students.IN_native_language">IN_native_language</column>
+			<column column="students.SpecialEducation">SpecialEducation</column>
+			<column column="students.State">State</column>
+			<column column="students.State_ExcludeFromRepo">State_ExcludeFromRepo</column>
+			<column column="students.State_StudentNumber">State_StudentNumber</column>
+			<column column="students.Street">Street</column>
+			<column column="students.TransferComment">TransferComment</column>
+			<column column="students.Zip">Zip</column>
+			<column column="students.dcid">dcid</column>
+            <column column="EmailAddress.emailaddress">emailaddress</column>
+			<column column="students.ID">stu_active_enddate</column>
+			<column column="students.ID">stu_active_notes</column>
+			<column column="students.ID">stu_active_startdate</column>
+			<column column="students.ID">stu_alt_enddate</column>
+			<column column="students.ID">stu_alt_notes</column>
+			<column column="students.ID">stu_alt_startdate</column>
+			<column column="students.ID">stu_alt_programname</column>
+			<column column="students.ID">stu_foster_enddate</column>
+			<column column="students.ID">stu_foster_notes</column>
+			<column column="students.ID">stu_foster_startdate</column>
+			<column column="students.ID">stu_frgnexchng_enddate</column>
+			<column column="students.ID">stu_frgnexchng_notes</column>
+			<column column="students.ID">stu_frgnexchng_startdate</column>
+			<column column="students.ID">stu_ability_enddate</column>
+			<column column="students.ID">stu_ability_notes</column>
+			<column column="students.ID">stu_ability_startdate</column>
+			<column column="students.ID">stu_highability</column>
+			<column column="students.ID">stu_homeless_enddate</column>
+			<column column="students.ID">stu_homeless_notes</column>
+			<column column="students.ID">stu_homeless_startdate</column>
+			<column column="students.ID">stu_homeless_prime</column>
+			<column column="students.ID">stu_lm_enddate</column>
+			<column column="students.ID">stu_lm_langproflevel</column>
+			<column column="students.ID">stu_lm_instructprog</column>
+			<column column="students.ID">stu_lm_used</column>
+			<column column="students.ID">stu_lm_startdate</column>
+			<column column="students.ID">stu_refuse_enddate</column>
+			<column column="students.ID">stu_refuse_notes</column>
+			<column column="students.ID">as stu_refuse_startdate</column>
+			<column column="students.ID">stu_eval_begindate</column>
+			<column column="students.ID">stu_eval_datetermination</column>
+			<column column="students.ID">stu_eval_exceptionalprimary</column>
+			<column column="students.ID">stu_evaluation_exceptionalsecondary</column>
+			<column column="students.ID">stu_eval_iepreviewdate</column>
+			<column column="students.ID">stu_eval_lastevaldate
+			<column column="students.ID">stu_eval_parentalconsentdate</column>
+			<column column="students.ID">stu_eval_schoolid</column>
+			<column column="students.ID">stu_eval_specialedplacement</column>
+			<column column="students.ID">stu_eval_specialedocation</column>
+			<column column="students.ID">stu_eval_studenteligibility</column>
+			<column column="students.ID">stu_section504_enddate</column>
+			<column column="students.ID">stu_section504_notes</column>
+			<column column="students.ID">stu_section504_startdate</column>
+			<column column="students.ID">stu_title_enddate</column>
+			<column column="students.ID">stu_title_startdate</column>
+			<column column="students.ID">stu_title_program</column>
+			<column column="students.ID">stu_title_i_extendime</column>
+			<column column="students.ID">stu_title_i_instruct</column>
+			<column column="students.ID">stu_title_i_support</column>
+			<column column="students.ID">stu_unacc_youth_endate</column>
+			<column column="students.ID">stu_unacc_youth_notes</column>
+			<column column="students.ID">stu_unacc_youth_startate</column>
+			<column column="students.ID">stu_virtual_startate</column>
+			<column column="students.ID">stu_virtual_notes</column>
+			<column column="students.ID">as stu_virtual_startdate</column>
+			<column column="students.ID">stu_access_school</column>
+			<column column="students.ID">stu_accountable_school</column>
+			<column column="students.ID">stu_activeparent_duty</column>
+			<column column="students.ID">stu_adm_type</column>
+			<column column="students.ID">stu_alt_student</column>
+			<column column="students.ID">stu_asc_grad_tf</column>
+			<column column="students.ID">stu_choicescholarstu</column>
+			<column column="students.ID">stu_country_origin</column>
+			<column column="students.ID">stu_country_residence</column>
+			<column column="students.ID">stu_doe_diploma_level</column>
+			<column column="students.ID">stu_doe_diploma_type</column>
+			<column column="students.ID">stu_emp_skills</column>
+			<column column="students.ID">stu_eng_level</column>
+			<column column="students.ID">stu_entry_datetoschool</column>
+			<column column="students.ID">stu_esea_title_progam</column>
+			<column column="students.ID">stu_except_primary</column>
+			<column column="students.ID">stu_except_secondary</column>
+			<column column="students.ID">stu_exclude_from_at</column>
+			<column column="students.ID">stu_exclude_from_gr</column>
+			<column column="students.ID">stu_exclude_from_lm_tf</column>
+			<column column="students.ID">stu_exclude_from_me_tf</column>
+			<column column="students.ID">stu_exclude_minsecdays</column>
+			<column column="students.ID">stu_fasa_filed</column>
+			<column column="students.ID">stu_foreign_exchange_tf</column>
+			<column column="students.ID">stu_forster_care</column>
+			<column column="students.ID">stu_grad_date</column>
+			<column column="students.ID">stu_half_time_kg</column>
+			<column column="students.ID">stu_hight_ability</column>
+			<column column="students.ID">stu_homeless</column>
+			<column column="students.ID">stu_instruct_mins</column>
+			<column column="students.ID">stu_lep_yn</column>
+			<column column="students.ID">stu_local_pathway</column>
+			<column column="students.ID">stu_migrant_tf</column>
+			<column column="students.ID">stu_mother_maiden_name</column>
+			<column column="students.ID">stu_native_lang_c</column>
+			<column column="students.ID">stu_post_grad_info</column>
+			<column column="students.ID">stu_post_sec_compete</column>
+			<column column="students.ID">stu_primaryschoolenroll</column>
+			<column column="students.ID">stu_publish_sped</column>
+			<column column="students.ID">stu_refugee_program</column>
+			<column column="students.ID">as stu_section504_plan_tf</column>
+			<column column="students.ID">stu_servicing_school</column>
+			<column column="students.ID">stu_specialEd_tf</column>
+			<column column="students.ID">stu_teacherofrecord</column>
+			<column column="students.ID">stu_particiapnt_tf</column>
+			<column column="students.ID">stu_unaccompanied_youth</column>
+			<column column="students.ID">stu_virtual_student</column>
         </columns>
         <sql>
             <![CDATA[
@@ -26,12 +147,146 @@
                 Students.Gender as sex,
                 Students.Ethnicity as race,
                 Students.FedEthnicity as federal_ethnicity_indicator,
-                EmailAddress.EmailAddress
+				Students.City,
+				Students.DistrictOfResidence,
+				Students.EntryCode,
+				Students.EntryDate,
+				Students.ExitCode,
+				Students.ExitComment,
+				Students.ExitDate,
+				Students.Grade_Level,
+				Students.Home_Phone,
+				Students.IN_native_language,
+				Students.SpecialEducation,
+				Students.State,
+				Students.State_ExcludeFromRepo,
+				Students.State_StudentNumber,
+				Students.Street,
+				Students.TransferComment,
+				Students.Zip,
+                EmailAddress.EmailAddress,
+                S_IN_STU_ACTIVE_DUTY_C.Enddate as stu_active_enddate,
+				S_IN_STU_ACTIVE_DUTY_C.Notes as stu_active_notes,
+				S_IN_STU_ACTIVE_DUTY_C.Startdate as stu_active_startdate,
+				S_IN_STU_ALTERNATIVE_EDU_C.Enddate as stu_alt_enddate,
+				S_IN_STU_ALTERNATIVE_EDU_C.Notes as stu_alt_notes,
+				S_IN_STU_ALTERNATIVE_EDU_C.Startdate as stu_alt_startdate,
+				S_IN_STU_ALTERNATIVE_EDU_C.Programname as stu_alt_programname,
+				S_IN_STU_FOSTER_CARE_C.Enddate as stu_foster_enddate,
+				S_IN_STU_FOSTER_CARE_C.Notes as stu_foster_notes,
+				S_IN_STU_FOSTER_CARE_C.Startdate as stu_foster_startdate,
+				S_IN_STU_FRGNEXCHNG_C.Enddate as stu_frgnexchng_enddate,
+				S_IN_STU_FRGNEXCHNG_C.Notes as stu_frgnexchng_notes,
+				S_IN_STU_FRGNEXCHNG_C.Startdate as stu_frgnexchng_startdate,
+				S_IN_STU_HIGH_ABILITY_C.Enddate as stu_ability_enddate,
+				S_IN_STU_HIGH_ABILITY_C.Notes as stu_ability_notes,
+				S_IN_STU_HIGH_ABILITY_C.Startdate as stu_ability_startdate,
+				S_IN_STU_HIGH_ABILITY_C.Highability as stu_highability,
+				S_IN_STU_HOMELESS_C.Enddate as stu_homeless_enddate,
+				S_IN_STU_HOMELESS_C.Notes as stu_homeless_notes,
+				S_IN_STU_HOMELESS_C.Startdate as stu_homeless_startdate,
+				S_IN_STU_HOMELESS_C.PrimNightTimeResidenc as stu_homeless_prime,
+				S_IN_STU_LM_C.Enddate as stu_lm_enddate,
+				S_IN_STU_LM_C.ENG_Lang_Prof_Level as stu_lm_langproflevel,
+				S_IN_STU_LM_C.Instructional_Program as stu_lm_instructprog,
+				S_IN_STU_LM_C.Instrument_used as stu_lm_used,
+				S_IN_STU_LM_C.Startdate as stu_lm_startdate,
+				S_IN_STU_REFUGEE_C.Enddate as stu_refuse_enddate,
+				S_IN_STU_REFUGEE_C.Notes as stu_refuse_notes,
+				S_IN_STU_REFUGEE_C.Startdate as stu_refuse_startdate,
+				S_IN_STU_SE_EVALUATION_C.BeginDate as stu_eval_begindate,
+				S_IN_STU_SE_EVALUATION_C.DateofTermination as stu_eval_datetermination,
+				S_IN_STU_SE_EVALUATION_C.ExceptionalityPrimary as stu_eval_exceptionalprimary,
+				S_IN_STU_SE_EVALUATION_C.ExceptionalitySecondary as stu_evaluation_exceptionalsecondary,
+				S_IN_STU_SE_EVALUATION_C.IEPReviewDate as stu_eval_iepreviewdate,
+				S_IN_STU_SE_EVALUATION_C.LASTEVALUATIONDAT as stu_eval_lastevaldate
+				S_IN_STU_SE_EVALUATION_C.ParentalConsentDate as stu_eval_parentalconsentdate,
+				S_IN_STU_SE_EVALUATION_C.SchoolID as stu_eval_schoolid,
+				S_IN_STU_SE_EVALUATION_C.specialedPlacement as stu_eval_specialedplacement,
+				S_IN_STU_SE_EVALUATION_C.SpecialeducationLocatio as stu_eval_specialedocation,
+				S_IN_STU_SE_EVALUATION_C.StudentEligibility as stu_eval_studenteligibility,
+				S_IN_STU_SECTION504_C.Enddate as stu_section504_enddate,
+				S_IN_STU_SECTION504_C.Notes as stu_section504_notes,
+				S_IN_STU_SECTION504_C.Startdate as stu_section504_startdate,
+				S_IN_STU_TITLE_C.Enddate as stu_title_enddate,
+				S_IN_STU_TITLE_C.Startdate as stu_title_startdate,
+				S_IN_STU_TITLE_C.ESEA_Title_I_Program as stu_title_program,
+				S_IN_STU_TITLE_C.Title_I_Extended_Time as stu_title_i_extendime,
+				S_IN_STU_TITLE_C.Title_I_Instruction as stu_title_i_instruct,
+				S_IN_STU_TITLE_C.Title_I_Support as stu_title_i_support,
+				S_IN_STU_UNACCOMPANIED_YOUTH_C.Enddate as stu_unacc_youth_endate,
+				S_IN_STU_UNACCOMPANIED_YOUTH_C.Notes as stu_unacc_youth_notes,
+				S_IN_STU_UNACCOMPANIED_YOUTH_C.Startdate as stu_unacc_youth_startate,
+				S_IN_STU_VIRTUAL_C.enddate as stu_virtual_startate,
+				S_IN_STU_VIRTUAL_C.Notes as stu_virtual_notes,
+				S_IN_STU_VIRTUAL_C.startdate as stu_virtual_startdate,
+				S_IN_STU_X.Access_School as stu_access_school,
+				S_IN_STU_X.Accountable_School as stu_accountable_school,
+				S_IN_STU_X.Active_Duty_Parent as stu_activeparent_duty,
+				S_IN_STU_X.Adm_Type as stu_adm_type,
+				S_IN_STU_X.AlternativeStudent as stu_alt_student,
+				S_IN_STU_X.ASC_Graduate_TF as stu_asc_grad_tf,
+				S_IN_STU_X.ChoiceScholarStu_YN as stu_choicescholarstu,
+				S_IN_STU_X.Country_of_Origin as stu_country_origin,
+				S_IN_STU_X.County_Residence as stu_country_residence,
+				S_IN_STU_X.DOE_Diploma_Level as stu_doe_diploma_level,
+				S_IN_STU_X.DOE_Diploma_Type as stu_doe_diploma_type,
+				S_IN_STU_X.Employability_Skills as stu_emp_skills,
+				S_IN_STU_X.ENG_Lang_Prof_Level as stu_eng_level,
+				S_IN_STU_X.EntryDateIntoUSSchool as stu_entry_datetoschool,
+				S_IN_STU_X.Esea_Title_I_Program as stu_esea_title_progam,
+				S_IN_STU_X.Exceptionality_Primary as stu_except_primary,
+				S_IN_STU_X.Exceptionality_Secondar as stu_except_secondary,
+				S_IN_STU_X.Exclude_From_AT as stu_exclude_from_at,
+				S_IN_STU_X.Exclude_From_GR as stu_exclude_from_gr,
+				S_IN_STU_X.Exclude_From_LM_TF as stu_exclude_from_lm_tf,
+				S_IN_STU_X.Exclude_From_ME_TF as stu_exclude_from_me_tf,
+				S_IN_STU_X.Exclude_MinSecDays as stu_exclude_minsecdays,
+				S_IN_STU_X.FAFSA_FILED as stu_fasa_filed,
+				S_IN_STU_X.Foreign_Exchange_TF as stu_foreign_exchange_tf,
+				S_IN_STU_X.Foster_Care as stu_forster_care,
+				S_IN_STU_X.Graduation_Date as stu_grad_date,
+				S_IN_STU_X.Half_Time_KG as stu_half_time_kg,
+				S_IN_STU_X.HIGH_ABILITY as stu_hight_ability,
+				S_IN_STU_X.HOMELESS as stu_homeless,
+				S_IN_STU_X.Instructional_Days as stu_instruct_days,
+				S_IN_STU_X.Instructional_Minutes as stu_instruct_mins,
+				S_IN_STU_X.LEP_YN as stu_lep_yn,
+				S_IN_STU_X.Local_Pathway as stu_local_pathway,
+				S_IN_STU_X.Migrant_TF as stu_migrant_tf,
+				S_IN_STU_X.Mothers_Maiden_Name as stu_mother_maiden_name,
+				S_IN_STU_X.NATIVE_LANGUAGE_C as stu_native_lang_c,
+				S_IN_STU_X.Post_Graduate_Info as stu_post_grad_info,
+				S_IN_STU_X.Postsecondary_Compete as stu_post_sec_compete,
+				S_IN_STU_X.PrimarySchoolEnrollmen as stu_primaryschoolenroll,
+				S_IN_STU_X.Publish_SPED as stu_publish_sped,
+				S_IN_STU_X.Refugee_Program as stu_refugee_program,
+				S_IN_STU_X.Section_504_Plan_TF as stu_section504_plan_tf,
+				S_IN_STU_X.Servicing_School as stu_servicing_school,
+				S_IN_STU_X.Special_Education_TF as stu_specialEd_tf,
+				S_IN_STU_X.TeacherOfRecord as stu_teacherofrecord,
+				S_IN_STU_X.Title_I_Participant_TF as stu_particiapnt_tf,
+				S_IN_STU_X.Unaccompanied_Youth as stu_unaccompanied_youth,
+				S_IN_STU_X.VirtualStudent as stu_virtual_student
             FROM
                 Students
                 LEFT JOIN PersonEmailAddressAssoc ON PersonEmailAddressAssoc.PersonID = Students.Person_ID
                 AND PersonEmailAddressAssoc.IsPrimaryEmailAddress = 1
-                LEFT JOIN EmailAddress ON EmailAddress.EmailAddressID = PersonEmailAddressAssoc.EmailAddressID		
+                LEFT JOIN EmailAddress ON EmailAddress.EmailAddressID = PersonEmailAddressAssoc.EmailAddressID
+                LEFT JOIN S_IN_STU_X ON S_IN_STU_X.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_ACTIVE_DUTY_C ON S_IN_STU_ACTIVE_DUTY_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_ALTERNATIVE_EDU_C ON S_IN_STU_ALTERNATIVE_EDU_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_FOSTER_CARE_C ON S_IN_STU_FOSTER_CARE_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_FRGNEXCHNG_C ON S_IN_STU_FRGNEXCHNG_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_HIGH_ABILITY_C ON S_IN_STU_HIGH_ABILITY_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_HOMELESS_C ON S_IN_STU_HOMELESS_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_LM_C ON S_IN_STU_LM_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_REFUGEE_C ON S_IN_STU_REFUGEE_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_SECTION504_C ON S_IN_STU_SECTION504_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_TITLE_C ON S_IN_STU_TITLE_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_UNACCOMPANIED_YOUTH_C ON S_IN_STU_UNACCOMPANIED_YOUTH_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_VIRTUAL_C ON S_IN_STU_VIRTUAL_C.StudentsDCID = Students.DCID
+				LEFT JOIN S_IN_STU_SE_EVALUATION_C ON S_IN_STU_SE_EVALUATION_C.StudentsDCID = Students.DCID
             ]]>
         </sql>
     </query>
