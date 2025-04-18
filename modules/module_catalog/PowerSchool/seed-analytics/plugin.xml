@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd" 
         name="Authentica seed" 
-        version="1.0.0.21"
+        version="1.0.0.22"
         description="Plugin for the integration with PowerSchool">
     <oauth></oauth>
     <access_request>
@@ -130,6 +130,343 @@
         <field table="TERMS" field="NAME" access="ViewOnly" />
         <field table="TERMS" field="SCHOOLID" access="ViewOnly" />
         <field table="TERMS" field="YEARID" access="ViewOnly" />
+        <field table="TERMS" field="DCID" access="ViewOnly" />
+        <field table="TERMS" field="Abbreviation" access="ViewOnly" />
+        <field table="TERMS" field="IsYearRec" access="ViewOnly" />
+        <field table="USERS" field="CITY" access="ViewOnly" />
+        <field table="USERS" field="DCID" access="ViewOnly" />
+        <field table="USERS" field="EMAIL_ADDR" access="ViewOnly" />
+        <field table="USERS" field="FIRST_NAME" access="ViewOnly" />
+        <field table="USERS" field="HOME_PHONE" access="ViewOnly" />
+        <field table="USERS" field="LAST_NAME" access="ViewOnly" />
+        <field table="USERS" field="LOGINID" access="ViewOnly" />
+        <field table="USERS" field="MIDDLE_NAME" access="ViewOnly" />
+        <field table="USERS" field="PREFERREDNAME" access="ViewOnly" />
+        <field table="USERS" field="SCHOOL_PHONE" access="ViewOnly" />
+        <field table="USERS" field="STATE" access="ViewOnly" />
+        <field table="USERS" field="STREET" access="ViewOnly" />
+        <field table="USERS" field="TEACHERLOGINID" access="ViewOnly" />
+        <field table="USERS" field="TEACHERLOGINPW" access="ViewOnly" />
+        <field table="USERS" field="TEACHERNUMBER" access="ViewOnly" />
+        <field table="USERS" field="TITLE" access="ViewOnly" />
+        <field table="USERS" field="ZIP" access="ViewOnly" />
+        <field table="USERS" field="password" access="ViewOnly" />
+        <field table="USERS" field="HOMESCHOOLID" access="ViewOnly" />
+        <field table="sectionteacher" field="sectionid" access="ViewOnly" />
+        <field table="sectionteacher" field="teacherid" access="ViewOnly" />
+        <field table="sectionteacher" field="id" access="ViewOnly" />
+        <field table="sectionteacher" field="start_date" access="ViewOnly" />
+        <field table="sectionteacher" field="end_date" access="ViewOnly" />
+        <field table="school_course" field="schoolid" access="ViewOnly" />
+        <field table="school_course" field="courseid" access="ViewOnly" />
+        <field table="GUARDIAN" field="GuardianID" access="ViewOnly" />
+        <field table="GUARDIAN" field="LastName" access="ViewOnly" />
+        <field table="GUARDIAN" field="MiddleName" access="ViewOnly" />
+        <field table="GUARDIAN" field="FirstName" access="ViewOnly" />
+        <field table="GUARDIAN" field="AccountIdentifier" access="ViewOnly" />
+        <field table="GUARDIAN" field="Email" access="ViewOnly" />
+        <field table="GUARDIAN" field="PSGUID" access="ViewOnly" />
+        <field table="GUARDIANSTUDENT" field="GuardianID" access="ViewOnly" />
+        <field table="GUARDIANSTUDENT" field="GuardianRelationshipTypeID" access="ViewOnly" />
+        <field table="GUARDIANSTUDENT" field="StudentsDCID" access="ViewOnly" />
+        <field table="GUARDIANSTUDENT" field="GuardianStudentID" access="ViewOnly" />
+        <field table="SectionTeacher" field="RoleID" access="ViewOnly" />
+        <field table="Teachers" field="TEACHERNUMBER" access="ViewOnly" />
+        <field table="Teachers" field="dcid" access="ViewOnly" />
+        <field table="PSM_StudentContact" field="email" access="ViewOnly"/>
+        <field table="PSM_StudentContact" field="StudentId" access="ViewOnly"/>
+        <field table="PSM_StudentContact" field="Firstname" access="ViewOnly"/>
+        <field table="PSM_StudentContact" field="Id" access="ViewOnly"/>
+        <field table="PSM_StudentContact" field="LastName" access="ViewOnly"/>
+        <field table="PSM_StudentContact" field="Phone" access="ViewOnly"/>
+        <field table="PSM_StudentContact" field="StudentContactTypeId" access="ViewOnly"/>
+        <field table="PSM_StudentContactType" field="Description" access="ViewOnly"/>
+        <field table="PSM_StudentContactType" field="Id" access="ViewOnly"/>
+        <field table="PSM_StudentContactType" field="Name" access="ViewOnly"/>
+        <field table="PSM_Student" field="StudentIdentifier" access="ViewOnly"/>
+        <field table="PSM_Student" field="BirthDate" access="ViewOnly"/>
+        <field table="PSM_Student" field="Citizenship" access="ViewOnly"/>
+        <field table="PSM_Student" field="FirstName" access="ViewOnly"/>
+        <field table="PSM_Student" field="Gender" access="ViewOnly"/>
+        <field table="PSM_Student" field="GradeLevel" access="ViewOnly"/>
+        <field table="PSM_Student" field="HomePhone" access="ViewOnly"/>
+        <field table="PSM_Student" field="lastName" access="ViewOnly"/>
+        <field table="PSM_Student" field="MiddleName" access="ViewOnly"/>
+        <field table="PSM_Student" field="NickName" access="ViewOnly"/>
+        <field table="PSM_Student" field="Id" access="ViewOnly"/>
+        <field table="PSM_Student" field="CorrespondenceLanguage" access="ViewOnly"/>
+        <field table="PSM_Student" field="PrimaryLanguage" access="ViewOnly"/>
+        <field table="PSM_Student" field="PrimaryRaceCode" access="ViewOnly"/>
+        <field table="GuardianNotificationEmail" field="GuardianStudentID" access="ViewOnly"/>
+        <field table="GuardianNotificationEmail" field="NotificationEmail" access="ViewOnly"/>
+        <field table="GuardianNotificationEmail" field="GuardianNotificationEmailID" access="ViewOnly"/>
+        <field table="STUDENTS" field="EntryDate" access="ViewOnly" />
+        <field table="STUDENTS" field="ExitDate" access="ViewOnly" />
+        <field table="STUDENTS" field="EXITCODE" access="ViewOnly" />
+        <field table="STUDENTS" field="ENTRYCODE" access="ViewOnly" />
+        <field table="STUDENTS" field="WEB_ID" access="ViewOnly" />
+        <field table="STUDENTS" field="WEB_PASSWORD" access="ViewOnly"/>
+        <field table="STUDENTS" field="LastFirst" access="ViewOnly"/>
+        <field table="gradescaleitem" field="dcid" access="ViewOnly"/>
+        <field table="gradescaleitem" field="id" access="ViewOnly"/>
+        <field table="COURSES" field="gradescaleid" access="ViewOnly"/>
+        <field table="SECTIONS" field="gradescaleid" access="ViewOnly"/>
+        <field table="assignment" field="assignmentid" access="FullAccess" />
+        <field table="assignment" field="yearid" access="FullAccess" />
+        <field table="assignment" field="createdbyplugin" access="FullAccess" />
+        <field table="assignment" field="hasstandards" access="FullAccess" />
+        <field table="assignment" field="standardscoringmethod" access="FullAccess" />
+        <field table="assignment" field="standardcalcdirection" access="FullAccess" />
+        <field table="assignment" field="standardrollupmethod" access="FullAccess" />
+        <field table="assignment" field="standardrollupmetric" access="FullAccess" />
+        <field table="assignmentsection" field="assignmentsectionid" access="FullAccess" />
+        <field table="assignmentsection" field="yearid" access="FullAccess" />
+        <field table="assignmentsection" field="sectionsdcid" access="FullAccess" />
+        <field table="assignmentsection" field="assignmentid" access="FullAccess" />
+        <field table="assignmentsection" field="relatedgradescaleitemdcid" access="FullAccess" />
+        <field table="assignmentsection" field="name" access="FullAccess" />
+        <field table="assignmentsection" field="duedate" access="FullAccess" />
+        <field table="assignmentsection" field="description" access="FullAccess" />
+        <field table="assignmentsection" field="scoretype" access="FullAccess" />
+        <field table="assignmentsection" field="scoreentrypoints" access="FullAccess"/>
+        <field table="assignmentsection" field="extracreditpoints" access="FullAccess"/>
+        <field table="assignmentsection" field="weight" access="FullAccess" />
+        <field table="assignmentsection" field="totalpointvalue" access="FullAccess" />
+        <field table="assignmentsection" field="iscountedinfinalgrade" access="FullAccess" />
+        <field table="assignmentsection" field="isscoringneeded" access="FullAccess" />
+        <field table="assignmentsection" field="publishoption" access="FullAccess" />
+        <field table="assignmentsection" field="publishdaysbeforedue" access="FullAccess" />
+        <field table="assignmentsection" field="publishonspecificdate" access="FullAccess" />
+        <field table="assignmentsection" field="publisheddate" access="FullAccess" />
+        <field table="assignmentsection" field="publishedscoretypeid" access="FullAccess" />
+        <field table="assignmentsection" field="isscorespublish" access="FullAccess" />
+        <field table="assignmentsection" field="maxretakeallowed" access="FullAccess"/>
+        <field table="assignmentcategoryassoc" field="assignmentcategoryassocid" access="FullAccess" />
+        <field table="assignmentcategoryassoc" field="assignmentsectionid" access="FullAccess" />
+        <field table="assignmentcategoryassoc" field="teachercategoryid" access="FullAccess" />
+        <field table="assignmentcategoryassoc" field="yearid" access="FullAccess" />
+        <field table="assignmentcategoryassoc" field="isprimary" access="FullAccess" />
+        <field table="assignmentscore" field="assignmentscoreid" access="FullAccess" />
+        <field table="assignmentscore" field="yearid" access="FullAccess" />
+        <field table="assignmentscore" field="assignmentsectionid" access="FullAccess"/>
+        <field table="assignmentscore" field="studentsdcid" access="FullAccess" />
+        <field table="assignmentscore" field="islate" access="FullAccess" />
+        <field table="assignmentscore" field="iscollected" access="FullAccess" />
+        <field table="assignmentscore" field="isexempt" access="FullAccess" />
+        <field table="assignmentscore" field="ismissing" access="FullAccess" />
+        <field table="assignmentscore" field="isabsent" access="FullAccess" />
+        <field table="assignmentscore" field="isincomplete" access="FullAccess" />
+        <field table="assignmentscore" field="actualscoreentered" access="FullAccess"/>
+        <field table="assignmentscore" field="actualscorekind" access="FullAccess" />
+        <field table="assignmentscore" field="actualscoregradescaledcid" access="FullAccess" />
+        <field table="assignmentscore" field="scorepercent" access="FullAccess" />
+        <field table="assignmentscore" field="scorepoints" access="FullAccess" />
+        <field table="assignmentscore" field="scorelettergrade" access="FullAccess" />
+        <field table="assignmentscore" field="scorenumericgrade" access="FullAccess" />
+        <field table="assignmentscore" field="scoreentrydate" access="FullAccess" />
+        <field table="assignmentscore" field="scoregradescaledcid" access="FullAccess"/>
+        <field table="assignmentscore" field="altnumericgrade" access="FullAccess" />
+        <field table="assignmentscore" field="altalphagrade" access="FullAccess" />
+        <field table="assignmentscore" field="altscoregradescaledcid" access="FullAccess" />
+        <field table="assignmentscore" field="hasretake" access="FullAccess" />
+        <field table="assignmentscorecomment" field="commentvalue" access="FullAccess"/>
+        <field table="assignmentscorecomment" field="assignmentscorecommentid" access="FullAccess" />
+        <field table="assignmentstandardassoc" field="iscountedinstandardgrade" access="FullAccess" />
+        <field table="assignmentstandardassoc" field="standardid" access="FullAccess"/>
+        <field table="assignmentstandardassoc" field="assignmentstandardassocid" access="FullAccess" />
+        <field table="assignmentstandardassoc" field="assignmentid" access="FullAccess" />
+        <field table="assignmentstandardassoc" field="scoreentrypoints" access="FullAccess" />
+        <field table="assignmentstandardassoc" field="rollupweight" access="FullAccess" />
+        <field table="assignmentstudentassoc" field="studentsdcid" access="FullAccess"/>
+        <field table="assignmentstudentassoc" field="assignmentsectionid" access="FullAccess" />
+        <field table="standardscore" field="actualscoreentered" access="FullAccess" />
+        <field table="standardscore" field="actualscoregradescaledcid" access="FullAccess" />
+        <field table="standardscore" field="actualscorekind" access="FullAccess" />
+        <field table="standardscore" field="altalphagrade" access="FullAccess" />
+        <field table="standardscore" field="altnumericgrade" access="FullAccess" />
+        <field table="standardscore" field="altscoregradescaledcid" access="FullAccess" />
+        <field table="standardscore" field="assignmentstandardassocid" access="FullAccess" />
+        <field table="standardscore" field="assignmentsectionid" access="FullAccess" />
+        <field table="standardscore" field="hasretake" access="FullAccess" />
+        <field table="standardscore" field="isabsent" access="FullAccess" />
+        <field table="standardscore" field="iscollected" access="FullAccess" />
+        <field table="standardscore" field="isexempt" access="FullAccess" />
+        <field table="standardscore" field="isincomplete" access="FullAccess" />
+        <field table="standardscore" field="islate" access="FullAccess" />
+        <field table="standardscore" field="ismissing" access="FullAccess" />
+        <field table="standardscore" field="scoreentrydate" access="FullAccess" />
+        <field table="standardscore" field="scoregradescaledcid" access="FullAccess" />
+        <field table="standardscore" field="scorelettergrade" access="FullAccess" />
+        <field table="standardscore" field="scorenumericgrade" access="FullAccess" />
+        <field table="standardscore" field="scorepercent" access="FullAccess" />
+        <field table="standardscore" field="scorepoints" access="FullAccess" />
+        <field table="standardscore" field="standardscoreid" access="FullAccess" />
+        <field table="standardscore" field="studentsdcid" access="FullAccess" />
+        <field table="standardscore" field="yearid" access="FullAccess" />
+        <field table="teachercategory" field="isusermodifiable" access="FullAccess" />
+        <field table="teachercategory" field="teachermodified" access="FullAccess" />
+        <field table="teachercategory" field="displayposition" access="FullAccess" />
+        <field table="teachercategory" field="defaultscoreentrypoints" access="FullAccess" />
+        <field table="teachercategory" field="defaultextracreditpoints" access="FullAccess" />
+        <field table="teachercategory" field="defaultweight" access="FullAccess" />
+        <field table="teachercategory" field="defaulttotalvalue" access="FullAccess" />
+        <field table="teachercategory" field="defaultpublishstate" access="FullAccess"/>
+        <field table="teachercategory" field="defaultpublishoption" access="FullAccess" />
+        <field table="teachercategory" field="isdefaultpublishscores" access="FullAccess" />
+        <field table="teachercategory" field="defaultscoretype" access="FullAccess" />
+        <field table="teachercategory" field="teachercategoryid" access="FullAccess" />
+        <field table="teachercategory" field="districtteachercategoryid" access="FullAccess" />
+        <field table="teachercategory" field="name" access="FullAccess" />
+        <field table="teachercategory" field="usersdcid" access="FullAccess" />
+        <field table="teachercategory" field="description" access="FullAccess" />
+        <field table="teachercategory" field="categorytype" access="FullAccess" />
+        <field table="teachercategory" field="color" access="FullAccess" />
+        <field table="teachercategory" field="isinfinalgrades" access="FullAccess" />
+        <field table="teachercategory" field="isactive" access="FullAccess" />
+        <field table="teachercatsectexcludeassoc" field="teachercatsectexcludeassocid" access="FullAccess" />
+        <field table="teachercatsectexcludeassoc" field="yearid" access="FullAccess" />
+        <field table="teachercatsectexcludeassoc" field="teachercategoryid" access="FullAccess" />
+        <field table="teachercatsectexcludeassoc" field="sectionsdcid" access="FullAccess" />
+        <field table="PGAssignments" field="dcid" access="ViewOnly" />
+        <field table="PGAssignments" field="id" access="ViewOnly" />
+        <field table="PGAssignments" field="assignmentid" access="ViewOnly" />
+        <field table="PGAssignments" field="name" access="ViewOnly" />
+        <field table="PGAssignments" field="description" access="ViewOnly" />
+        <field table="PGAssignments" field="sectionid" access="ViewOnly" />
+        <field table="districtteachercategory" field="districtteachercategoryid" access="FullAccess" />
+        <field table="districtteachercategory" field="name" access="FullAccess" />
+        <field table="districtteachercategory" field="description" access="FullAccess" />
+        <field table="section_meeting" field="meeting" access="ViewOnly" />
+        <field table="section_meeting" field="sectionid" access="ViewOnly" />
+        <field table="section_meeting" field="year_id" access="ViewOnly" />
+        <field table="SECTIONS" field="GRADE_LEVEL" access="ViewOnly" />
+        <field table="calendar_day" field="SCHOOLID" access="ViewOnly" />
+        <field table="calendar_day" field="date_value" access="ViewOnly" />
+        <field table="calendar_day" field="insession" access="ViewOnly" />
+        <field table="REENROLLMENTS" field="STUDENTID" access="ViewOnly" />
+        <field table="REENROLLMENTS" field="GRADE_LEVEL" access="ViewOnly" />
+        <field table="REENROLLMENTS" field="SCHOOLID" access="ViewOnly" />
+        <field table="REENROLLMENTS" field="ENTRYDATE" access="ViewOnly" />
+        <field table="REENROLLMENTS" field="ENTRYCODE" access="ViewOnly" />
+        <field table="REENROLLMENTS" field="EXITDATE" access="ViewOnly" />
+        <field table="REENROLLMENTS" field="EXITCODE" access="ViewOnly" />
+        <field table="S_IN_STU_ACTIVE_DUTY_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_ACTIVE_DUTY_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_ACTIVE_DUTY_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_ALTERNATIVE_EDU_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_ALTERNATIVE_EDU_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_ALTERNATIVE_EDU_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_ALTERNATIVE_EDU_C" field="Programname" access="ViewOnly" />
+        <field table="S_IN_STU_FOSTER_CARE_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_FOSTER_CARE_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_FOSTER_CARE_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_FRGNEXCHNG_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_FRGNEXCHNG_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_FRGNEXCHNG_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_HIGH_ABILITY_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_HIGH_ABILITY_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_HIGH_ABILITY_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_HIGH_ABILITY_C" field="Highability" access="ViewOnly" />
+        <field table="S_IN_STU_HOMELESS_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_HOMELESS_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_HOMELESS_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_HOMELESS_C" field="PrimNightTimeResidenc" access="ViewOnly" />
+        <field table="S_IN_STU_LM_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_LM_C" field="ENG_Lang_Prof_Level" access="ViewOnly" />
+        <field table="S_IN_STU_LM_C" field="Instructional_Program" access="ViewOnly" />
+        <field table="S_IN_STU_LM_C" field="Instrument_used" access="ViewOnly" />
+        <field table="S_IN_STU_LM_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_REFUGEE_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_REFUGEE_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_REFUGEE_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="BeginDate" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="DateofTermination" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="ExceptionalityPrimary" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="ExceptionalitySecondary" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="IEPReviewDate" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="LASTEVALUATIONDAT" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="ParentalConsentDate" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="SchoolID" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="specialedPlacement" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="SpecialeducationLocatio" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="StudentEligibility" access="ViewOnly" />
+        <field table="S_IN_STU_SECTION504_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_SECTION504_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_SECTION504_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_TITLE_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_TITLE_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_TITLE_C" field="ESEA_Title_I_Program" access="ViewOnly" />
+        <field table="S_IN_STU_TITLE_C" field="Title_I_Extended_Time" access="ViewOnly" />
+        <field table="S_IN_STU_TITLE_C" field="Title_I_Instruction" access="ViewOnly" />
+        <field table="S_IN_STU_TITLE_C" field="Title_I_Support" access="ViewOnly" />
+        <field table="S_IN_STU_UNACCOMPANIED_YOUTH_C" field="Enddate" access="ViewOnly" />
+        <field table="S_IN_STU_UNACCOMPANIED_YOUTH_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_UNACCOMPANIED_YOUTH_C" field="Startdate" access="ViewOnly" />
+        <field table="S_IN_STU_VIRTUAL_C" field="enddate" access="ViewOnly" />
+        <field table="S_IN_STU_VIRTUAL_C" field="Notes" access="ViewOnly" />
+        <field table="S_IN_STU_VIRTUAL_C" field="startdate" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Access_School" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Accountable_School" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Active_Duty_Parent" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Adm_Type" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="AlternativeStudent" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="ASC_Graduate_TF" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="ChoiceScholarStu_YN" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Country_of_Origin" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="County_Residence" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="DOE_Diploma_Level" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="DOE_Diploma_Type" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Employability_Skills" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="ENG_Lang_Prof_Level" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="EntryDateIntoUSSchool" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Esea_Title_I_Program" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Exceptionality_Primary" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Exceptionality_Secondar" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Exclude_From_AT" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Exclude_From_GR" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Exclude_From_LM_TF" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Exclude_From_ME_TF" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Exclude_MinSecDays" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="FAFSA_FILED" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Foreign_Exchange_TF" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Foster_Care" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Graduation_Date" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Half_Time_KG" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="HIGH_ABILITY" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="HOMELESS" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Instructional_Days" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Instructional_Minutes" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="LEP_YN" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Local_Pathway" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Migrant_TF" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Mothers_Maiden_Name" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="NATIVE_LANGUAGE_C" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Post_Graduate_Info" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Postsecondary_Compete" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="PrimarySchoolEnrollmen" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Publish_SPED" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Refugee_Program" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Section_504_Plan_TF" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Servicing_School" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Special_Education_TF" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="TeacherOfRecord" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Title_I_Participant_TF" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="Unaccompanied_Youth" access="ViewOnly" />
+        <field table="S_IN_STU_X" field="VirtualStudent" access="ViewOnly" />  
+        <field table="S_IN_STU_X" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_ACTIVE_DUTY_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_ALTERNATIVE_EDU_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_FOSTER_CARE_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_FRGNEXCHNG_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_HIGH_ABILITY_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_HOMELESS_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_LM_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_REFUGEE_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_SECTION504_C" field="tudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_TITLE_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_UNACCOMPANIED_YOUTH_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_VIRTUAL_C" field="StudentsDCID" access="ViewOnly" />
+        <field table="S_IN_STU_SE_EVALUATION_C" field="StudentsDCID" access="ViewOnly" />  
     </access_request>
     <publisher name="Authentica Solutions">
         <contact email="N/A" />
